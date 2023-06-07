@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Esto es un comentario-->
+<html lang="es"><!-- Esta en la forma de colocar el lenguaje en español-->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi primera pagina web</title><!-- aca debería ir el nombre de la pag. web-->
+    <link rel="stylesheet" type="text/css" href="styles.css"><!--con esto hacemos que nuestro html se conecte con el css-->
+</head>
+<body>
+  <header class="container-nav">
+      <nav class="navbar" role="navigation">
+          <a href="index.html" class="brand">Mi página web</a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Nosotros.html">Nosotros</a></li>
+            <li><a href="Servicios.html">Servicios</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+      </header>
+
+    <main class="container">
+      <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/lQ8P5D5iGjE" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen></iframe>
+    
+
+    <h1>BIENVENIDOS A MI PRIMERA PAG WEB</h1>
+    <div class="box">
+        <p>Contenido de la caja</p> 
+    </div>
+    <div class="sección1">
+        <p> Veamos si funciona esto</p>
+    </div>
+    <div class="sección2">
+        <p> Veamos si funciona por segunda vez</p>
+    </div>
+<section class="container">
+  <h2>¿Quién soy?</h2>
+  <p>Soy Fernando, ¡y esta es mi primera página web!</p>
+</section>
+<section class="container">
+  <h2>¿Qué quiero hacer?</h2>
+  <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+  <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. 
+      Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.</p>
+</section>    
+</main>
+<footer class="footer">
+<button onclick= "ShowAlert()" aria-label="Haz clic en mí">¡Haz clic en mi!</button>
+
+<form id="myForm">
+  <label for="email">Correo electrónico:</label>
+  <input type="email" id="email" name="email" required>
+  <button type="submit">Enviar</button>
+
+</form>
+<p>Muchas gracias por la buena onda del equipo</p> 
+</footer>
+<script src="script.js"></script>
+
+</body>
+
+</html>
